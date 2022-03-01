@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Add scripts
-Plugin URI: https://github.com/kirilkirkov
+Plugin URI: https://github.com/Wordpress-Plugins-World/kirilkirkov-add-scripts
 Description: This plugin integrates your scripts to your theme.
 Version: 1.0
 Author: Kiril Kirkov
