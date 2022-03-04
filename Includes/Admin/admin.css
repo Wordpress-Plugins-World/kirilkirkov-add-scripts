@@ -7,6 +7,12 @@
     color: #ccc;
 }
 
+#kirilkirkov .wp-icon {
+    height: 30px; 
+    color:#3a9715; 
+    font-size:30px;
+}
+
 #kirilkirkov button[type=submit] {
     background-color: #3a9715;
     color: #fff;

@@ -69,7 +69,7 @@ if(!class_exists('KirilKirkov_AddScripts')) {
 		}
 
 		/**
-		 * Add GA code if has in settings
+		 * Add scripts code if has in settings
 		 */
 		public function add_scripts()
 		{
@@ -84,7 +84,7 @@ if(!class_exists('KirilKirkov_AddScripts')) {
 		public function admin_init()
 		{
 			if (!is_admin()) {
-				wp_die( 'This code is for admin area only' );
+				wp_die( __( 'This code is for admin area only' ) );
 			}
 			
 			register_setting( KIRILKIRKOV_ADD_SCRIPTS_INPUTS_GROUP, KIRILKIRKOV_ADD_SCRIPTS_INPUTS_PREFIX.'scripts' );
